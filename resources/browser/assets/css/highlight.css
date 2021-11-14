@@ -1,0 +1,10 @@
+/* Highlight on navigation to an anchor. */
+@-webkit-keyframes targetNavigatedAnimation {
+    from { background: #ffffff; }
+    50% { background: #ffff00; }
+    to { background: #ffffff; }
+}
+
+*:target {
+    -webkit-animation: targetNavigatedAnimation .5s linear;
+}
